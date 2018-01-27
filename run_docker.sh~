@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -d -p "0.0.0.0:$1:80" -h "default" --name ="default" -it ahmedbhs/default
