@@ -26,6 +26,8 @@ RUN apt-get install -y \
       php-zip \
       php-soap \
       php-xdebug \
+      git \
+      vim \
       composer
 
 RUN rm /var/www/html/index.html
