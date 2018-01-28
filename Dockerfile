@@ -32,7 +32,7 @@ RUN apt-get install -y \
 
 RUN rm /var/www/html/index.html
 
-#Move core project and config
+#Move core project (app) and config 
 ADD apache/000-default.conf /etc/apache2/sites-enabled/000-default.conf
 ADD app/ /var/www/html/
 
